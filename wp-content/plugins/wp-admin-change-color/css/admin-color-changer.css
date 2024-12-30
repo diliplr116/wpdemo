@@ -1,0 +1,37 @@
+/* General background color */
+body.wp-admin {
+    background-color: #1e1e1e;
+}
+
+/* Admin menu background */
+#adminmenu, #adminmenuback, #adminmenuwrap {
+    background-color: #23282d;
+}
+
+/* Admin menu links */
+#adminmenu a {
+    color: #ffffff;
+}
+
+/* Active menu item */
+#adminmenu .wp-has-current-submenu .wp-submenu, #adminmenu .wp-menu-arrow, #adminmenu .wp-menu-arrow div, #adminmenu .wp-has-current-submenu a.menu-top {
+    background-color: #0073aa;
+    color: #ffffff;
+}
+
+/* Top admin bar */
+#wpadminbar {
+    background-color: #23282d;
+}
+
+/* Top admin bar links */
+#wpadminbar a {
+    color: #ffffff;
+}
+
+/* Buttons */
+button, input[type="button"], input[type="submit"], a.button {
+    background-color: #0073aa;
+    color: #ffffff;
+    border: none;
+}
